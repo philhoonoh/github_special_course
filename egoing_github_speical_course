@@ -1,0 +1,22 @@
+egoing github 특강!
+
+1. U : untrakced files, M : Modified Files
+
+2. git commit -am "" : Tracked file 만 commit
+
+3. Untracked file 경우 : 
+	git add FILENAME 
+	git add . -> 나쁜 설정
+
+4. system 상에서 Untracked file 설정
+	: .git/info/exclude 
+	https://docs.microsoft.com/ko-kr/azure/devops/repos/git/ignore-files?view=azure-devops&tabs=visual-studio
+
+5. vscode 에서 숨긴 파일 설정
+	"files.exclude": {
+	    "**/.git": true,
+	    "**/.svn": true,
+	    "**/.hg": true,
+	    "**/.DS_Store": true
+	}
+
