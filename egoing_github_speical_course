@@ -44,7 +44,17 @@ egoing github 특강!
 8. commit 이름 바꾸기
 	git commit --amend -m "rename commit"
 	* commit ID 가 달라진다. 
-	
+	* HEAD - MASTER : 
+		HEAD -> last commit
+		MASTER -> branch
+
+	amend 전 : a <- b <- c
+		HEAD - MASTER : c 를 가리킨다.
+
+	amend 후 : a <- b <- c2, c 는 사라짐 
+		HEAD - MASTER : c2 를 가리킨다.
+
+
 
 
 
