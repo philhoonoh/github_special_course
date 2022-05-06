@@ -55,10 +55,26 @@ egoing github 특강!
 		HEAD - MASTER : c2 를 가리킨다.
 
 9. git checkout HashID(7 digit)
-	HASH 값 에 해당하는 곳으로 이동
+	* 항상 HEAD 를 움직인다 (시간여행)
+	HASH commit에 HEAD를 이동
 	git checkout main 
 		: main 으로 다시 이동
 
+	* Detached HEAD State -> 경고를 준다.
+		HEAD하고 MASTER하고 일치하지 않은 상태에서 commit을 할 경우 
+
+		A <- B(master) <- C (Head)
+
+		이 상태에서 git checkout master 할경우
+
+		A <- B(master,head) <- C (날라간다)
+
+		master를 C로 옮길려면?
+
+		A <- B <- C (master,head) 할려면?
+
+10. git reset 
+	* HEAD가 가리키는 곳으로 branch 를 움직인다.
 
 
 
