@@ -54,7 +54,7 @@ egoing github 특강!
 	amend 후 : a <- b <- c2, c 는 사라짐 
 		HEAD - MASTER : c2 를 가리킨다.
 
-9. git checkout HashID(7 digit)
+9. git checkout HashID(4 digit)
 	* 항상 HEAD 를 움직인다 (시간여행)
 	HASH commit에 HEAD를 이동
 	git checkout main 
@@ -73,10 +73,11 @@ egoing github 특강!
 
 		A <- B <- C (master,head) 할려면?
 
-10. git reset 
+10. git reset --hard 
 	* HEAD가 가리키는 곳으로 branch 를 움직인다.
 
-
+11. git reflog
+	* 이전 모든 history 
 
 
 
