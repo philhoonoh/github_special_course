@@ -54,6 +54,8 @@ egoing github 특강!
 	amend 후 : a <- b <- c2, c 는 사라짐 
 		HEAD - MASTER : c2 를 가리킨다.
 
+9. checkout 
+
 
 
 
